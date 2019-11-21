@@ -1,0 +1,23 @@
+{
+  "name": "yt-music-desktop-app",
+  "version": "1.0.0",
+  "description": "Desktop Application For Youtube Music",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Bünyamin Öztürk <lanson2332@hotmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.0.0"
+  },
+  "dependencies": {
+    "electron-native-notification": "^1.2.1",
+    "node-notifier": "^6.0.0"
+  },
+  "build": {
+    "extraResources": ["./datas/**"]
+    }
+}
