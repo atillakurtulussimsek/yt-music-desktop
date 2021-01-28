@@ -11,7 +11,7 @@
   "author": "Bünyamin Öztürk <lanson2332@hotmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^7.0.0"
+    "electron": "^9.4.0"
   },
   "dependencies": {
     "electron-native-notification": "^1.2.1",
