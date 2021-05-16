@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "electron-native-notification": "^1.2.1",
-    "node-notifier": "^6.0.0"
+    "node-notifier": "^8.0.1"
   },
   "build": {
     "extraResources": ["./datas/**"]
